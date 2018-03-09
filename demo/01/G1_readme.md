@@ -1,9 +1,9 @@
 ## 基础类型[G01]
 + 数组[G0101]
-+ 元组[G0201]
-+ 枚举[G0301]
++ 元组[G0102]
++ 枚举[G0103]
   + 便于理解的例子
-  ```
+  ```Typescript
   // ts文件
   enum Color {Red, Green, Blue};
   let c: Color = Color.Green;
@@ -34,7 +34,7 @@
   obj1[2] = '2';
   console.log(obj1); // => Object {1: "1", 2: "2"}
   ```
-+ 类型断言[G0401]
++ 类型断言[G0104]
 
 > 参考资料
 + [中文基本类型](https://www.tslang.cn/docs/handbook/basic-types.html)
